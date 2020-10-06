@@ -1,6 +1,8 @@
 const express = require('express')
 const helmet = require('helmet')
 
+const db = require("./database/connection")
+
 const server = express()
 
 server.use(helmet())
